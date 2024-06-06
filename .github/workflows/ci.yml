@@ -1,4 +1,4 @@
-name: CI 
+name: CI
 
 on: [push, pull_request]
 
@@ -14,6 +14,13 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+      env:
+        pythonLocation: /opt/hostedtoolcache/Python/3.12.3/x64
+        PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.3/x64/lib/pkgconfig
+        Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.3/x64
+        Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.3/x64
+        Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.3/x64
+        LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.3/x64/lib
 
     - name: Install dependencies
       run: |
@@ -22,13 +29,15 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s . > test-results.xml
+        python -m unittest discover -s. > test-results.xml
       continue-on-error: true
 
     - name: Publish test results
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: task-results
-        path: task-results.xml
-        
+        name: test-results
+        path: test-results.xml
+      if-no-files-found: warn
+      compression-level: 6
+      overwrite: false
