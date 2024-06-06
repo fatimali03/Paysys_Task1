@@ -35,6 +35,20 @@ The test results saved in test-results.xml are uploaded as an artifact. This all
 
 ![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/00e73155-510d-4c79-ac30-b262a4d71944)
 
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/808b64b6-1f2a-47a1-989c-59ce33b02c17)
+
+Everything is green and says all checks have passed. 
+
+**Bonus: Add Sonarqube in the pipeline to give you a code quality score.**
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/c0bfedc9-df24-44bf-ab31-36582623693c)
+
+**Analysis:**
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/93dd30f8-850d-4c2e-9fc4-3f1bd00a558d)
+
+
+
+
+
 
 
 
