@@ -22,3 +22,7 @@ Here, the unit tests are executed. The output, typically in the form of test res
 The test results saved in test-results.xml are uploaded as an artifact. This allows viewing the results in the GitHub Actions interface, aiding in debugging and analysis.
 
 **Github Action**
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/1da754d1-3817-4a61-9f4c-2d296ec102e4)
+
+**Run Test Cases**
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/b9d3e7cf-7a6a-42af-ab7f-62f4e87e922e)
