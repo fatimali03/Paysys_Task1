@@ -33,7 +33,8 @@ The test results saved in test-results.xml are uploaded as an artifact. This all
 **Testing an example**
 ![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/0456aea6-25e2-4b8a-9dcb-56c0e69992bd)
 
-![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/945d1b90-49a4-4f5c-b069-42a1e0b3780f)
+![image](https://github.com/fatimali03/Paysys_Task1/assets/136559675/00e73155-510d-4c79-ac30-b262a4d71944)
+
 
 
 
